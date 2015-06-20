@@ -1,0 +1,19 @@
+name: WarpSigns
+main: falkirks\warpsigns\WarpSigns
+author: Falkirks
+version: 0.0.1 
+api: [1.12.0]
+depend: ["SimpleWarp"]
+commands:
+  signdoctor:
+    permission: warpsigns.doctor
+permissions:
+  warpsigns:
+    default: op
+    children:
+      warpsigns.doctor:
+        default: op
+      warpsigns.create:
+        deafult: op
+      warpsigns.use:
+        deafult: true
