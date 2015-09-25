@@ -28,7 +28,6 @@ class WarpSigns extends PluginBase implements Listener, CommandExecutor{
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
-        $this->getServer()->getLevels();
         foreach($this->getServer()->getLevels() as $level){
             foreach($level->getTiles() as $tile){
                 if($tile instanceof Sign){
