@@ -76,7 +76,7 @@ class WarpSigns extends PluginBase implements Listener, CommandExecutor{
                             $warp = SimpleWarpAPI::getInstance($this)->getWarp($text[1]);
                             if($warp instanceof Warp) {
                                 $warp->teleport($event->getPlayer());
-                                //TODO figure out if this causes crashs on some clients
+                                //TODO figure out if this causes crashes on some clients
                                 //$event->setCancelled();
                             }
                         }
