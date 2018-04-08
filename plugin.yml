@@ -2,7 +2,7 @@ name: WarpSigns
 main: falkirks\warpsigns\WarpSigns
 author: Falkirks
 version: 0.0.2
-api: [3.0.0-ALPHA5]
+api: [3.0.0-ALPHA11]
 depend: ["SimpleWarp"]
 commands:
   signdoctor:
