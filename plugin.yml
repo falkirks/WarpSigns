@@ -1,8 +1,8 @@
 name: WarpSigns
 main: falkirks\warpsigns\WarpSigns
 author: Falkirks
-version: 0.0.2
-api: [3.0.0-ALPHA5]
+version: 0.0.3
+api: [3.0.0]
 depend: ["SimpleWarp"]
 commands:
   signdoctor:
